@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    .ball{
+        width: 100px;
+        height: 100px;
+        margin: 60px auto;
+        animation: rotate 2s infinite linear;
+    }
+    @keyframes rotate{
+        0% { transform: perspective(120px) rotate(0deg);}
+        50% { transform: perspective(120px)  rotate(180deg);}
+        100% { transform: perspective(120px) rotate(360deg);}
+    }
+</style>
+</head>
+<body>
+    <img src="images/ball.png" alt="농구공" class="ball">
+</body>
+</html>
