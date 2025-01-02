@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            text-align: center;
+        }
+        b{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>3의 배수찾기</h1>
+    <script>
+        let num = parseInt(prompt("몇 까지의 3의 배수를 알고 싶으신가요?"))
+        let count = 0;
+        if(isNaN(num) == true){ //NaN값은 true,false로 조건문을 통과할 수 없음 > isNaN함수를 사용하여 true false값을 받아온다.
+            alert("값 입력이 잘못 되었습니다.")
+        }   
+        else{
+            for(let i = 1; i <= num; i++){
+                if(i % 3 == 0){
+                    document.write(i+", ");
+                    count++;
+                    
+                }
+                
+            }
+            document.write("<br> <b>"+num+"까지의 3의 배수의 개수"+count+"</b>")
+        }
+        
+    </script>
+</body>
+</html>
