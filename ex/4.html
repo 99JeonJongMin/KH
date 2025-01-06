@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>4번문제</title>
+    <style>
+        main{
+            display: inline-block;
+            text-align: center;
+        }
+        input[type=range] {
+            width: 100%; 
+            cursor: pointer; 
+            background: transparent; 
+            border-color: transparent;  
+            color: transparent; 
+        }   
+    </style>
+    <script src="js/ex4.js"></script>
+</head>
+<body onload="focus()">
+    <main>
+    <form method="post" action="#" name="register">
+        <table>
+            <tr>
+                <td>이름</td>
+                <td><input type="text" id="name"></td>
+            </tr>
+            <tr>
+                <td>E-mail</td>
+                <td><input type="text" id="email" placeholder="이메일을 입력하세요"></td>
+            </tr>
+            <tr>
+                <td>홈페이지</td>
+                <td><input type="text" id="page" placeholder="홈페이지를 입력하세요"></td>
+            </tr>
+            <tr>
+                <td>대학졸업년도</td>
+                <td><input type="text" id="date"></td>
+            </tr>
+            <tr>
+                <td>생년월일</td>
+                <td><input type="text" id="bd"></td>
+            </tr>
+            <tr>
+                <td>영어평가등급</td>
+                <td><input type="range" min="0" max="100"></td>
+            </tr>
+            <tr>
+                <td>좋아하는색</td>
+                <td><input type="text" id="color"></td>
+            </tr>
+        </table>
+        <input type="button" value="확인" onclick="check()">
+        <input type="reset" value="취소">
+    </form>
+</main>
+</body>
+</html>
