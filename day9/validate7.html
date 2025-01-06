@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>자바스크립트 정규식</title>
+    <script src="js/vaildate.js"></script>
+</head>
+<body>
+
+    <form method="post" name="member" action="#">
+        <h2>회원가입</h2>
+        아이디 : <input type="text" name="id"><br>
+        비밀번호 : <input type="password" name="passwd1"><br>
+        비밀번호확인 : <input type="password" name="passwd2"><br>
+        연락처 : <input type="tel" name="tel" maxlength="11"><br>
+        주소 : <input type="text" name="addr"><br>
+        전자우편 : <input type="email" name="email"><br>
+        <input type="button" value="회원가입" onclick="check()">
+        <input type="reset" value="취소">
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8">
+    <title>당첨자 발표</title>
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+      .container {
+        width: 300px;
+      }
+      h1 {
+        text-align: center;
+        border: 1px solid #222;
+        padding: 10px;
+        border-radius: 10px;
+        background-color: #eee;
+      }
+      p {
+        font-size: 1.2em;
+      }
+    </style>
+  </head>
+  <body>    
+    <div class="container">
+      <h1>당첨자 발표</h1>
+      <script>
+        // Do it! Math 객체 연습하기 - 당첨자 1명 뽑기
+        let people = prompt("몇 명을 추첨할것인가요?")
+        let random = Math.floor(Math.random()*people +1)
+
+        document.write(`<p>전체 응모자수 : ${people}</p>`)
+        document.write(`<p>당첨자 : ${random}번</p>`)
+      </script>
+    </div>
+
+  </body>
+</html>
