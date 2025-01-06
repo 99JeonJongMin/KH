@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1</title>
+    <link rel="stylesheet" href="css/ex.css">
+    <script src="js/ex.js"></script>
+</head>
+
+<body onload="focus()">
+    <form method="post" name="member" action="#">
+    <table>
+        <tr>
+            <td>이메일(아이디)</td>
+            <td colspan="3"><input type="text" placeholder="Email 또는 ID를 입력하십시오" id="email"></td>
+            
+            <td colspan="2" rowspan="2"> <input type="button" value="로그인" onclick="check()"></td>
+            
+        </tr>
+        <tr>
+            <td>비밀번호</td>
+            <td colspan="3"><input type="password" placeholder="비밀번호를 입력해 주세요" id="passwd"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td><input type="checkbox" >아이디저장</td>
+            <td></td>
+            <td class="id">아이디찾기 <span>|</span></td>
+            <td class="passwd">비밀번호찾기 <span>|</span></td>
+            <td><a href="#" >회원가입</a></td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>

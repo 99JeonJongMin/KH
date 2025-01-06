@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2</title>
+    <style>
+        .btn{
+            font-weight: bold;
+            font-size: 20px;
+            width: 100px;
+            height: 50px;
+            text-align: center;
+            border-radius: 50px;
+            position: relative;
+            top: 30px;;
+            left:50%;
+        }
+        .d{
+            color: white;
+        }
+        legend{
+            height: 70px;
+        }
+        td{
+            border: 5px solid white;
+        }
+        fieldset{
+            width: 400px;
+        }
+        .form1{
+            width: 350px;
+        }
+    </style>
+</head>
+<body>
+    <form method="post" action="#" class=" form1">
+        <fieldset>
+        <table><legend><h2>로그인정보</h2>
+            <tr>
+                <td>아이디</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>비밀번호</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>비밀번호 확인</td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td>회원 등급</td>
+                <td><b>준회원</b></td>
+            </tr>
+        </table></legend>
+    </fieldset>
+    <fieldset>
+        
+        <table><legend><h2>개인정보</h2>
+            <tr>
+                <td>이름</td>
+                <td><input type="text" placeholder="5자 미만 공백없이"></td>
+            </tr>
+            <tr>
+                <td>메일 주소<span class="d">ddd</span></td>
+                <td><input type="text" placeholder="abcd@domain.com"></td>
+            </tr>
+            <tr>
+                <td>연락처</td>
+                <td><input type="text"></td>
+            </tr>
+            
+        </table></legend>
+    </fieldset>
+    
+    <button class="btn">제출</button>
+</form>
+</body>
+</html>

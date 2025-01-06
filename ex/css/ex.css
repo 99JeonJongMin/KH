@@ -1,0 +1,39 @@
+td{
+    line-height: 30px;
+    border: 4px solid white;
+}
+
+input[type=text] {
+    width: 250px;
+    height: 30px;
+}
+input[type=password] {
+    width: 250px;
+    height: 30px;
+}
+span{
+    font-size: 10px;
+    color: gray;
+}
+a{
+    text-decoration-line: none;
+}
+.login{
+    border-radius: 3px;
+    text-align: center;
+    background-color: gray;
+    color: white;
+    
+}
+.id{
+    text-align: right;
+}
+input[type=button]{
+    width: 100%;
+    height: 85px;
+    border-radius: 3px;
+    text-align: center;
+    background-color: gray;
+    color: white;
+}
+
