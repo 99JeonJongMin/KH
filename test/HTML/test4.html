@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table,td{
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 8px;
+            margin: auto;
+        }
+        #top{
+            vertical-align: top;
+        }
+        p{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <p>테이블 속성 테스트</p>
+    <div>
+    <table>
+        <tr>
+            <td>호텔명</td>
+            <td>숙박일</td>
+            <td>서비스</td>
+            <td>비용</td>
+        </tr>
+        <tr>
+            <td>그랑프리호텔</td>
+            <td>2015년 4월</td>
+            <td>조식무료서비스</td>
+            <td>1박 300000원</td>
+        </tr>
+        <tr>
+            <td>웨스턴호텔</td>
+            <td rowspan="2" id="top">2015년 4월~5월</td>
+            <td>조식 무료서비스</td>
+            <td>1박 300000원</td>
+        </tr>
+        <tr>
+            <td>롯데호텔</td>
+            <td colspan="2">조식 무료서비스</td>
+        </tr>
+        <tr>
+            <td>중국호텔</td>
+            <td colspan="2">2015년 4월+조식서비스</td>
+            <td>1박 300000원</td>
+        </tr>
+        <tr>
+            <td colspan="4">즐거운 휴가되세요!</td>
+        </tr>
+    </table>
+</div>
+</body>
+</html>

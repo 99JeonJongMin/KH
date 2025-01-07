@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>로그인</title>
+    <style>
+        td{
+            border: 5px solid rgb(234, 228, 239);
+        }
+        table{
+            margin: auto;
+        }
+        input[type=text],input[type=password]{
+            height: 25px;
+        }
+        form{
+            margin: auto;
+            width: 600px;
+        }
+        #back{
+            margin: auto;
+            background-color: rgb(234, 228, 239);
+            width: 700px;
+            height: 300px;
+        }
+        #btn{
+            text-align: center;
+        }
+        #title{
+            text-align: center;
+            color: rgb(123, 83, 160);
+            font-size: xx-large;
+            margin-bottom: 40px;
+        }
+        #login{
+            color: white;
+            background-color: rgb(123, 83, 160);
+            border: 1px solid rgb(123, 83, 160);
+            width: 100px;
+            height: 70px;
+            font-size: 11px;
+        }
+        #last{
+            margin-top: 10px;
+            background-color: white;
+            color: rgb(123, 83, 160);
+            border: 1px solid rgb(123, 83, 160);
+            width: 140px;
+            height: 40px;
+        }
+        
+    </style>
+    <script>
+        function focus(){
+            document.querySelector("#id").focus();
+        }
+    </script>
+</head>
+<body onload="focus();">
+    <h1 id="title">로그인</h1>
+    <div id="back">
+         <form method="post" action="#" >
+            <br><br>
+            <table>
+                <tr>
+                    <td>아이디</td>
+                    <td><input type="text" id="id"></td>
+                    <td rowspan="2"><input type="button" value="회원 로그인" id="login"></td>
+                </tr>
+                <tr>
+                    <td>비밀번호</td>
+                    <td><input type="password" name="" id=""></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><input type="checkbox" checked id="bo">보안접속</td>
+                    <td></td>
+                </tr>
+            </table>
+            <br>
+            <hr color="blueviolet">
+        </form>
+        <div id="btn">
+    <input type="button" id="last" value="아이디 찾기">
+    <input type="button" id="last" value="비밀번호 찾기">
+    <input type="button" id="last" value="회원가입"></div>
+    </div>
+</body>
+</html>
