@@ -2,7 +2,7 @@
 
 <div align=center> 
   
-  [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=99JeonJongMin's+GitHub)](https://git.io/typing-svg)
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&width=435&lines=99JeonJongMin's+GitHub)](https://git.io/typing-svg)
   <br>
   <br>
   동의과학대학교 컴퓨터소프트웨어과를 졸업하고 KH교육원에서 교육을 듣고 있습니다. 프론트와 백엔드 프로젝트 경험이 있습니다.
