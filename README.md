@@ -1,1 +1,1 @@
-<h1>KH정보 교육원에서 배운 내용을 정리, 저장하는 repo</h1>
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=99JeonJongMin)](https://github.com/anuraghazra/github-readme-stats)
