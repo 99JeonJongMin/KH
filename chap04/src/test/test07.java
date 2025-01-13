@@ -38,9 +38,12 @@ public class test07 {
 			System.out.println("잔고>"+money);
 			
 			break;
-		default:
+		case 4:
 			System.out.println("");
 			run = false;
+		
+		default:
+			System.out.println("번호를 잘못 입력하셨습니다!");
 		}
 	}
 
