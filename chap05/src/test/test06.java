@@ -48,7 +48,7 @@ public class test06 {
 					}
 				}
 				System.out.println("최고 점수 : "+max);
-				System.out.println("평균 점수 : "+Math.round(avg*100)/100.0);
+				System.out.println("평균 점수 : "+Math.round(avg*100)/100.0); //소숫점 둘째자리 표현
 				break;
 			case 5:
 				System.out.println("프로그램 종료");
