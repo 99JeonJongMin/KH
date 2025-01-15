@@ -34,11 +34,11 @@ public class test06 {
 					scores[i] = sc.nextInt();
 					sum += scores[i];
 				}
-				avg = sum/scores.length;
+				avg = (double)sum/scores.length;
 				break;
 			case 3:
 				for(int i =0; i<scores.length;i++) {
-					System.out.println("scores["+scores[i]+"]> ");
+					System.out.println("scores["+i+"]> " + scores[i]);
 				}
 				break;
 			case 4:
@@ -48,7 +48,7 @@ public class test06 {
 					}
 				}
 				System.out.println("최고 점수 : "+max);
-				System.out.println("평균 점수 : "+avg);
+				System.out.println("평균 점수 : "+Math.round(avg*100)/100.0);
 				break;
 			case 5:
 				System.out.println("프로그램 종료");

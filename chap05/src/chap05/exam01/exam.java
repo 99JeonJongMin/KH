@@ -14,7 +14,7 @@ public class exam {
 			student[i] = sc.nextInt();
 			sum += student[i];
 		}
-		System.out.println("5명의 평균점수 : "+sum/student.length);
+		System.out.println("5명의 평균점수 : "+(double)sum/student.length);
 	}
 
 }
