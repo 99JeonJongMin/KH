@@ -10,12 +10,6 @@
 <br/>
 <br/>
 
-Most Used Language
-<br>
-<br>
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=99JeonJongMin)](https://github.com/anuraghazra/github-readme-stats)
-<br>
-<br>
 My GitHub Stats
 <br>
 <br>
