@@ -6,10 +6,8 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.Reader;
 import java.io.Writer;
-import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;
-import java.util.List;
 import java.util.Map;
 import java.util.Scanner;
 import java.util.Set;
@@ -61,13 +59,9 @@ public class StudentExam {
 				String addr = sc.nextLine();
 				System.out.print("학생의 전화번호를 입력 하세요 : ");
 				String tel = sc.nextLine();
-				++count;
+				
 				String str = name+" "+addr+" "+tel+" ";
-				map.put(count,str);
-//				
-//				wr.write(str +"\n");
-//				
-//				wr.flush();
+				map.put(count++,str);
 				break;
 			case 2:
 				Set<Map.Entry<Integer, String>> entrySet = map.entrySet();
@@ -87,7 +81,6 @@ public class StudentExam {
 				System.out.println("삭제 시킬 학생의 번호를 입력하시오 : ");
 				int num = sc.nextInt();
 				sc.nextLine();
-//				
 				map.remove(num);
 				
 				
