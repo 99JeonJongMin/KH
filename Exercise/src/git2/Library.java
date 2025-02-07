@@ -47,16 +47,8 @@ public class Library {
 			
 			switch(choice) {
 			case 1:
-				System.out.println("도서명을 입력하세요 : ");
-				String name = sc.nextLine();
-				System.out.println("저자를 입력하세요 : ");
-				String author = sc.nextLine();
-				System.out.println("출판사를 입력하세요 : ");
-				String pub = sc.nextLine();
-				System.out.println("가격을 입력하세요 : ");
-				int price = sc.nextInt();
-				sc.nextLine();
-				list.add(new Book(++count,name, author, pub, price));
+				//2025 02 07 main에서 쓰던 sc메소드들을 Book 클래스로 옮겨서 main함소드 간소화 하였음
+				list.add(book.insert());
 				break;
 				
 			case 2:
@@ -68,11 +60,9 @@ public class Library {
 				//2025 02 07 findNo로 받은값이 null값이어도 삭제된다는 문구 출력 되었던 점 수정 - 전종민
 				System.out.println("삭제 시킬 도서의 번호를 입력하세요 : ");
 				int removeNo = sc.nextInt();
-
 				boolean result = list.remove(findNo(list, removeNo));
 				if(result != false) {
 					System.out.println(removeNo+"번 도서가 삭제 되었습니다.");
-					
 				}
 				else { 
 					System.out.println(removeNo+"번의 도서는 존재하지 않습니다!");
