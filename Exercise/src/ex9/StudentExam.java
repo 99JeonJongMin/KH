@@ -37,9 +37,6 @@ public class StudentExam {
 			
 		}
 		
-		
-		
-
 		Writer wr = new FileWriter("C:/Temp/Student/student.txt");
 		if(test == false) {
 		String str0 = "이름  | 주소  |  번호";
